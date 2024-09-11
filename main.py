@@ -215,7 +215,7 @@ while True:
     # Thêm nền màu đen
     cv2.rectangle(frame, (15, 48), (265, 95), (0, 0, 0), -1)
 
-    # Hiển thị văn bản với kích thước font nhỏ hơn và màu trắng
+    # Hiển thị văn bản
     cv2.putText(frame, f"emty slot: {space}", (28, 78), cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 255), 2)
 
 
